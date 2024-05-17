@@ -146,7 +146,9 @@ color: white;
 .rh{
     width: 50%;
 }
-
+.rh{
+    width:65%;
+}
 .rh p {
     color: #E22900;
     font-weight: bold;
