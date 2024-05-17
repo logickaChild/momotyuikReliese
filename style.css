@@ -1,0 +1,212 @@
+body {
+    font-family: sans-serif;
+}
+html,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section h2{
+color:#E22900;
+}
+header{
+padding: 10px;
+
+}
+
+nav{
+    padding: 20px 10px ;
+    display:flex;
+    justify-content:space-evenly ;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    transition: 250ms;
+    font-weight: bold;
+    padding:10px 20px ;
+    border-radius: 10px;
+    color: #d5252b;
+    background-color: white;
+}
+nav a:hover{
+    background-color: #d5252b;
+    color: #fff;
+    transition: 250ms;
+    
+}
+.menu{
+    background-color: #d5252b ;
+    
+}
+h2{
+    margin: 0;
+
+
+}
+header img{
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+   
+}
+.menu article{
+    display: flex;
+    flex-direction: column;
+   justify-content:space-evenly ;
+   width: 30%;
+    font-size: 20px;
+    text-align: center;
+   padding: 10px;
+   background-color: #d5252b;
+   border-radius: 10px;  transition: 250ms;
+
+}
+.menu article p {
+    height: 20px;
+}
+
+.menu article:hover{
+    background-color: white;
+    color: #d5252b;
+    transition: 250ms;
+}
+.price{
+    font-size: 20px;
+    color: #FFC300;
+    font-weight: bold;
+}
+.xas{
+    
+    display: flex; 
+    padding: 40px 10px;
+    justify-content: space-between;
+}
+
+article img{
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.599);
+    border-radius: 10px;
+   width: 100%;
+}
+/* https://s7d1.scene7.com/is/image/mcdonalds/Best_Royal_cheesb:nutrition-calculator-tile?wid=1040&hei=1040&dpr=off" */
+/* https://s7d1.scene7.com/is/image/mcdonalds/Best_Hamburger:nutrition-calculator-tile?wid=1040&hei=1040&dpr=off" */
+
+.xas p{
+    padding-left: 10px;
+}
+.menu h2{
+    text-align: center;
+    color: white;
+}
+.menu{
+    color: white;
+    padding: 15px;
+}
+.vova{
+    padding:20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.vova img {
+   width: 60%;
+   
+   
+}
+.vova h2{
+    text-align: center;
+    color: #E22900;
+}
+.pepsi{
+    background-color: #002993;
+    padding:40px 20px ;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.pepsi h2{
+color: white;
+}
+
+.pepsi__container{
+    display: flex; justify-content: space-between;
+    align-items: center;
+}
+.pepsi__text{
+    font-size: 30px;
+    color: white;
+}
+.pepsi__text span{
+    color: #FFC300;
+    font-weight: 600;
+}
+ 
+.rh{
+    width: 50%;
+}
+
+.rh p {
+    color: #E22900;
+    font-weight: bold;
+    font-size: 70px;
+ animation: mig 750ms infinite ;
+
+}
+iframe{
+    border-radius: 10px;
+    box-shadow: 0 1px 15px 0 black;
+}
+@keyframes mig {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.rh img{
+    border-radius: 10px;
+    box-shadow: 0 1px 15px 0 black;
+}
+.adress{
+    padding: 40px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+footer{
+    background-color: #000000;
+   padding: 20px 15px;
+   color: white;
+   font-size: 20px;
+   display: flex;
+   justify-content:space-between ;
+   align-items:center ;
+
+   
+}
+.cg{
+    color: white;
+    font-size: 20px;
+}
+.xax {
+    background-color:#002993 ;
+}
+.ox{
+    color:#FFC300 ;
+    
+}
+footer img{
+   width: 100px;
+   height: 100px;
+}
+
+
